@@ -1,0 +1,208 @@
+/* DOCUMENTO CSS - MODELO 2 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body {    
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#topo {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 100px;
+}
+#topo #logo.png {
+    width: 70px;
+    height: 70px;
+    background-color: #ccdbdb;
+    margin-left: 100px;
+}
+#topo h1{
+    margin-left: 30px;
+}
+#topo #menu {
+    height: 60px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-left: 80px;
+    border-radius: 60px;
+
+}
+
+/* CAIXA COM INF DO FILME */
+#topo #boxtopo {
+    height: 150px;
+    width: 550px;
+    background-color: #000000aa;
+    position: absolute;
+    top: 460px;
+    left: 160px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:self-start;
+}
+
+#topo #boxtopo figure img {
+    width: 200px;
+}
+#topo #boxtopo p {
+    color: #00A8F0;
+    font-size: 27px;
+    font-family: Haettenschweiler;
+    
+
+
+
+}
+
+
+
+
+
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    font-size: 21px;
+    color: #ffffff;
+    padding: 16px 10px 11px 8px;
+    font-weight:800;
+    transition: 0.4s;
+}
+#menu ul li a:hover{
+    color: #f2f0f7;
+    background-color: #373738;
+}
+
+#secao1 {
+    height: 700px;
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#secao2 .coluna1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secao2 .coluna1 p {
+    text-align: justify;
+    padding: 0 50px;
+    font-size: 33px;
+}
+#secao1 .coluna1 img {
+    height: 100%;
+    align-items: center;
+}
+#secao2 {
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+#secao2 .coluna1 figure img{
+    width: 600px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloSecao {
+    font-size: 70px;
+    margin-bottom: -20px;
+    margin-left: 30px;
+    text-align: left;
+    padding: 0 10px;
+    
+    
+    
+
+    
+}
+
+.containerColunas {
+    display: flex;
+}
+
+#secao3 {
+
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#secao3 img {
+    width: 80%;
+}
+#secao4 {
+    height: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+#secao4 .coluna1 p {
+    text-align: justify;
+    padding: 0 50px;
+}
+#secao4 .coluna1 h2 {
+    text-align: justify;
+    padding: 0 50px;
+}
+
+
+
+
+
+
+#rodape {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 100px;
+    font-weight: 600;
+}
+#rodape img{
+    width: 420px;
+    height: 100px;
+    background-color:#000000 ;
+    margin-left: 415px;
+    padding: -100px;
+}
+#rodape p{
+    margin-left: px;
+    
+}
+#rodape2 {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:black;
+    padding: 0 100px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+}
+
